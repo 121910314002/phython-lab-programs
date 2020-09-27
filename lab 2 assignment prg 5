@@ -1,0 +1,27 @@
+#program to perform all arithmethic operations
+a = int(input(" Enter a: ")) # take input of a 
+b = int(input(" Enter b: ")) # take input of b
+
+add = a+b  # addition of two numbers
+sub = a-b  # subtraction of two numbers
+mul = a*b  # multiplication of two numbers
+div = a/b  # divivion of two numbers
+mod = a%b  # modulus of two numbers
+
+print("The Sum of {} and {} = {}".format(a,b, add))
+print("The Subtraction of {} and {}= {}".format(a,b, sub))
+print("The Multiplication of {} and {}= {}".format(a,b, mul))
+print("The Division of {} and {} = {}".format(a,b, div))
+print("The Modulus of {} and {} = {}".format(a,b, mod))
+
+
+output:
+Enter a: 
+10
+ Enter b: 
+5
+The Sum of 10 and 5 = 15
+The Subtraction of 10 and 5 = 5
+The Multiplication of 10 and 5 = 50
+The Division of 10 and 5 = 2.0
+The Modulus of 10 and 5 = 0
