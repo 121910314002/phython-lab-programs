@@ -1,0 +1,17 @@
+#program to find minimum of three numbers
+a=int(input("Enter a:")) #input of a
+b=int(input("Enter b:")) #input of b
+c=int(input("Enter c:")) #input of c
+if(a<=b and a<=c)      #camparing a with b and c
+  print(a,"is the smallest number")
+elif(b<=a and b<=c)       #camparing b with a and c
+  print(b,"is the smallest number")
+else:
+  print(c,"is the smallest number")
+  
+  
+output:
+Enter a:5
+Enter b:15
+Enter c:10
+a is the smallest number
