@@ -1,0 +1,14 @@
+#sum of 3 numbers
+
+a=int(input())
+b=int(input())
+c=int(input())
+
+sum=a+b+c
+print(sum)
+
+output:
+a=10
+b=30
+c=20
+60
