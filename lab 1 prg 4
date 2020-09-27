@@ -1,0 +1,7 @@
+# entering your name
+
+n= input("Enter your name : ") 
+print ("Hello", n)
+
+output-Hello satwika
+ 
