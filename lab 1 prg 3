@@ -1,0 +1,12 @@
+#Read an integer:
+a = int(input())
+# Print a value:
+print("current : " , a)
+print ("previous : ", a-1)
+print("next : ", a+1)
+
+output
+a= 12
+Current: 12
+previous: 11
+next: 13
