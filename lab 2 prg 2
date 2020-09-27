@@ -1,0 +1,22 @@
+#program to find lcm of two numbers
+a=int(input("Enter first number:") #input of a
+b=int(input("Enter second number:")#input of b
+if(a>b)
+  greater=x
+else:
+  greater=y
+
+while(True):
+  if((greater % a==0) and (greater % b==0):
+      lcm=greater
+      break
+  greater += 1
+  
+print("The lcm of two numbers is",lcm)
+
+
+
+output:
+Enter first number:15
+Enter second number:25
+The lcm of two numbers is 75
