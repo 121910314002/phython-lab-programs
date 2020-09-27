@@ -1,0 +1,17 @@
+#program to find the number is perfect or not.
+
+Num = int(input("Enter a number: ")) #to take the input 
+Sum = 0
+for i in range(1, Num): 
+    if(Num % i == 0):
+        Sum = Sum + i
+if (Sum == Num):  # if the condition is true the below statements are printed
+    print(" %d is a Perfect Num" %Num)
+else:
+    print(" %d is not a Perfect Num" %Num) 
+    
+    
+output:
+Enter a number:
+28
+28 is a Perfect Num
