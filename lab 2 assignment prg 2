@@ -1,0 +1,19 @@
+#program to swap two numbers
+a = input('Enter a: ')#take the required input
+b = input('Enter b: ')#take the required input
+
+temp = a #take a variable temp for performing swapping 
+a = b
+b = temp
+
+print('The value of a after swapping: {}'.format(a)) #shows the result after swapping the value of a
+print('The value of b after swapping: {}'.format(b)) #shows the result after swapping the value of b
+
+
+output:
+Enter a:
+87
+Enter b:
+78
+The value of a after swapping:78
+The value of b after swapping:87
