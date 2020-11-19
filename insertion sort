@@ -1,0 +1,26 @@
+create a list with the user input data.implement insertion sort
+b = []
+
+# number of elemetns as input
+n = int(input("Enter number of elements : "))
+
+for i in range(0, n):
+    ele = int(input())
+
+    b.append(ele)  # adding the element
+
+print(b)
+
+for i in b:
+    j = b.index(i)
+
+    while j>0:
+
+        if b[j-1] > b[j]:
+
+            b[j-1],b[j] = b[j],b[j-1]
+        else:
+            break
+        j = j-1
+print("Element after sorting is")
+print (b)
